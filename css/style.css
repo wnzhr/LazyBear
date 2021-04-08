@@ -1,0 +1,180 @@
+/* Global Codes - Wanee & Kinah*/
+
+body {
+	font-family: Roboto, sans-serif, Verdana;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background-color: #353a40;
+	color: #e9e9e9;
+	padding-left: 25px;
+	padding-bottom: 5px;
+}
+
+.h1-lzb {
+	float: left;
+	padding: 15px 0 0 0;
+	max-width: 100%;
+	height: auto;
+}
+
+.clr {
+	clear: both;
+}
+
+#nav-kanan {
+	float: right;
+	background-color: #fff;
+	padding-top: 15px;
+	max-width: 100%;
+}
+
+/* Links */ 
+
+.nav a {
+	color: #e9e9e9;
+}
+
+.nav a:hover {
+	color: #fdf6ad;
+}
+
+/* Navigation Bar */ 
+
+nav {
+	max-width: 100%;
+}
+
+.nav-link {
+	padding: 5px 35px 5px 35px;
+}
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/*footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0; 
+	background-color: #353a40;
+	color: #fff;
+}
+/* End of Global Codes */
+
+/*Home Page - Mij's Work*/
+
+#review{
+	width:90%;
+	background-color: #353a40;
+	padding-top: 30px;
+	border: 1px soild;
+	border-radius: 30px;
+	color: #fff;
+   }
+
+#review h1{
+	border-bottom: 3px solid #fff;
+	padding-bottom: 15px;
+}	
+   
+#review2{
+	   padding-top: 30px;
+	  }
+
+#whatsnew img{
+		width: 460px;
+		height: 250px;
+		border-radius: 15px;
+	}
+/* End of Home Page */
+
+/* About Page - Tini */
+
+#founder {
+	width: 75%;
+}
+
+#intro {
+	padding: 0 10px;
+}
+
+
+/* Products page - Yati */
+h1{
+	border-bottom: 3px solid #353a40;
+	padding-bottom: 20px;
+}
+
+.para-des{
+	padding-top: 20px;
+}
+
+.row{
+	margin: 50px;
+}
+
+.sigbox-row{
+	background-color: #353a40;
+	color: #fff;
+	padding: 20px 30px;
+	/*border-radius: 15px;*/
+}
+
+.sigbox-row h1{
+	border-bottom: 3px solid #fff;
+}
+
+.sigbox-row img{
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 3px;
+	margin: 10px;
+}
+
+#main-slideshow{
+	margin-top: 10px;
+}
+
+.carousel-inner{
+	border-radius: 15px;
+}
+
+#cookie-row{
+	background-color: #353a40;
+	padding: 30px 20px;
+	color: #fff;
+}
+
+#cookie-row h1{
+	border-bottom: 3px solid #fff;
+}
+
+/* End of Product Page */
+
+/* Contact Page*/
+
+/*MEDIA QUERIES*/
+
+/*footer logo*/
+@media(max-width: 800px){
+    .bg-image img{
+        text-align:center;
+        width:100%;
+    }
+     header .branding, 
+     header nav,
+     header nav li{
+        float:center;
+        text-align:center;
+        width:100%;
+   }
+   .h1-lzb{
+    text-align:center;
+    width:100%;
+   }
+}
