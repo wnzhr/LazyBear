@@ -66,6 +66,7 @@ p {
 /* End of Global Codes */
 
 /*Home Page - Mij's Work*/
+
 #review{
 	width:90%;
 	background-color: #353a40;
@@ -79,10 +80,6 @@ p {
 	border-bottom: 3px solid #fff;
 	padding-bottom: 15px;
 }	
-   
-#review2{
-	   padding-top: 30px;
-	  }
 
 #whatsnew img{
 		width: 460px;
@@ -171,7 +168,13 @@ h1{
 /*MEDIA QUERIES*/
 
 /*footer logo*/
-@media(max-width: 800px){
+@media(max-width: 750px){
+
+	#homepage img {
+	   width: 100%;
+		height: 200px;
+	}
+
     .bg-image img{
         text-align:center;
         width:100%;
@@ -182,9 +185,13 @@ h1{
         float:center;
         text-align:center;
         width:100%;
+		padding-right: 12px;
    }
    .h1-lzb{
     text-align:center;
     width:100%;
+	padding-right: 12px;
    }
+
+
 }
